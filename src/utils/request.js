@@ -1,11 +1,13 @@
 import 'whatwg-fetch';
+import runtimeEnv from '@mars/heroku-js-runtime-env';
 
 /**
  * The root URL for the request API, set in ../../.env
  *
  * @return {string} The string set by the env var `REACT_APP_API_ROOT`
  */
-const API_ROOT = process.env.REACT_APP_API_ROOT;
+const env = runtimeEnv();
+const API_ROOT = env.REACT_APP_API_ROOT;
 
 /**
  * Checks if a network request came back fine, and throws an error if not
