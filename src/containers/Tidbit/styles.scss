@@ -6,7 +6,7 @@
 	font-size: 18px;
 	line-height: 25px;
 	margin: 0px;
-	@include main-font-semi-light;
+	@include main-font-light;
 	&::first-letter {
 		text-transform: capitalize;
 	}
@@ -61,7 +61,7 @@
 	border-radius: 50px;
 	cursor: pointer;
 	font-size: 13px;
-	@include main-font-semi-light;
+	@include main-font-light;
 	text-transform: lowercase;
 	margin-right: 15px;
 	margin-bottom: 10px;

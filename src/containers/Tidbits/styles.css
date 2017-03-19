@@ -1,12 +1,6 @@
 textarea, input, button {
   outline: none; }
 
-/** Ultra Light */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff"); }
-
 /** Thin */
 @font-face {
   font-family: "San Francisco";
@@ -39,11 +33,13 @@ textarea, input, button {
 
 .tidbits {
   margin: 0px auto; }
-  .tidbits .tags-filter {
-    display: flex;
-    border: 1px solid #5898c3;
-    border-left: 0px;
-    border-right: 0px;
-    padding: 10px 0px; }
-    .tidbits .tags-filter .pill {
-      margin-bottom: 0px; }
+
+.tidbits .tags-filter {
+  display: flex;
+  border: 1px solid #5898c3;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 10px 0px; }
+
+.tidbits .tags-filter .pill {
+  margin-bottom: 0px; }

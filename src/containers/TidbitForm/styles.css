@@ -1,12 +1,6 @@
 textarea, input, button {
   outline: none; }
 
-/** Ultra Light */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff"); }
-
 /** Thin */
 @font-face {
   font-family: "San Francisco";
@@ -102,8 +96,9 @@ textarea, input, button {
   cursor: pointer;
   text-transform: capitalize;
   transition: all .1s linear; }
-  .tidbitForm .button.active, .tidbitForm p.label.active {
-    text-decoration: underline; }
+
+.tidbitForm .button.active, .tidbitForm p.label.active {
+  text-decoration: underline; }
 
 .tidbitForm .tidbit-title {
   margin: 10px 0px;
@@ -112,10 +107,12 @@ textarea, input, button {
 .tidbitForm .info {
   display: flex;
   flex-direction: row; }
-  .tidbitForm .info p {
-    font-size: 12px; }
-    .tidbitForm .info p.source {
-      text-transform: none; }
+
+.tidbitForm .info p {
+  font-size: 12px; }
+
+.tidbitForm .info p.source {
+  text-transform: none; }
 
 .tidbitForm .submit, .tidbitForm .publish {
   width: 100%;
@@ -126,11 +123,13 @@ textarea, input, button {
   padding: 10px 0px;
   cursor: pointer;
   transition: all .4s ease; }
-  .tidbitForm .submit:hover, .tidbitForm .submit:active, .tidbitForm .publish:hover, .tidbitForm .publish:active {
-    background-color: #216b9d; }
+
+.tidbitForm .submit:hover, .tidbitForm .submit:active, .tidbitForm .publish:hover, .tidbitForm .publish:active {
+  background-color: #216b9d; }
 
 .tidbitForm .publish {
   background-color: #2d90d3;
   margin-top: 0px; }
-  .tidbitForm .publish:hover, .tidbitForm .publish:active {
-    background-color: #2579b2; }
+
+.tidbitForm .publish:hover, .tidbitForm .publish:active {
+  background-color: #2579b2; }

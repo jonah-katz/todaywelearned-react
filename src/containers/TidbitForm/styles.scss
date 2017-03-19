@@ -10,7 +10,7 @@
 		padding-bottom: 11px;
 		font-size: 20px;
 		color: white;
-		@include main-font-semi-light;
+		@include main-font-light;
 
 
 	}
@@ -18,7 +18,7 @@
 		font-size: 20px;
 		color: white;
 		opacity: 1;
-		@include main-font-semi-light;
+		@include main-font-light;
 
 
 	}
@@ -33,7 +33,7 @@
 
 	.extras {
 		color: white;
-		@include main-font-semi-light;
+		@include main-font-light;
 		margin-top: 15px;
 		@include transition;
 		overflow: hidden;

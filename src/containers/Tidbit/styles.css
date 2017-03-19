@@ -1,12 +1,6 @@
 textarea, input, button {
   outline: none; }
 
-/** Ultra Light */
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff"); }
-
 /** Thin */
 @font-face {
   font-family: "San Francisco";
@@ -44,40 +38,45 @@ textarea, input, button {
   margin: 0px;
   font-family: 'San Francisco', sans-serif;
   font-weight: 200; }
-  .tidbit h3.title::first-letter, .tidbit-title::first-letter {
-    text-transform: capitalize; }
+
+.tidbit h3.title::first-letter, .tidbit-title::first-letter {
+  text-transform: capitalize; }
 
 .tidbit {
   width: 100%;
   padding: 20px 0px;
   margin-top: 30px;
   position: relative; }
-  .tidbit .intro {
-    margin: 0px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    color: #fdfdfd;
-    font-family: 'San Francisco', sans-serif;
-    font-weight: 100; }
-  .tidbit .tags {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px; }
-  .tidbit p.description, .tidbit p.description a {
-    font-size: 14px;
-    color: #010101;
-    margin-top: 15px;
-    text-decoration: none;
-    font-family: 'San Francisco', sans-serif;
-    font-weight: 100; }
-  .tidbit time {
-    position: absolute;
-    right: 0px;
-    top: 20px;
-    color: #fff;
-    font-size: 13px;
-    font-family: 'San Francisco', sans-serif;
-    font-weight: 100; }
+
+.tidbit .intro {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #fdfdfd;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+
+.tidbit .tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px; }
+
+.tidbit p.description, .tidbit p.description a {
+  font-size: 14px;
+  color: #010101;
+  margin-top: 15px;
+  text-decoration: none;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+
+.tidbit time {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
 
 .pill {
   margin: 0px;
@@ -93,8 +92,10 @@ textarea, input, button {
   margin-right: 15px;
   margin-bottom: 10px;
   white-space: nowrap; }
-  .pill.large {
-    font-size: 16px;
-    white-space: pre-wrap; }
-  .pill.dark {
-    background-color: #010101; }
+
+.pill.large {
+  font-size: 16px;
+  white-space: pre-wrap; }
+
+.pill.dark {
+  background-color: #010101; }
