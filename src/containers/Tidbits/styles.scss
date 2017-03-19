@@ -1,0 +1,18 @@
+@import '../../App.scss';
+
+.tidbits {
+	margin: 0px auto;
+
+	
+	.tags-filter {
+		display: flex;
+		border: 1px solid $light-blue;
+		border-left: 0px;
+		border-right: 0px;
+		padding: 10px 0px;
+		.pill {
+			margin-bottom: 0px;
+		}
+	}
+
+}

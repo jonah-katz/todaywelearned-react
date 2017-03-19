@@ -1,0 +1,104 @@
+@import '../../App.scss';
+
+.tidbitForm {
+	.new-tidbit-input {
+		margin: 0px auto;
+		border-bottom: 1px solid $light-gray;
+		display: block;
+		width: 100%;
+		height: 40px;
+		padding-bottom: 11px;
+		font-size: 20px;
+		color: white;
+		@include main-font-semi-light;
+
+
+	}
+	@include placeholder {
+		font-size: 20px;
+		color: white;
+		opacity: 1;
+		@include main-font-semi-light;
+
+
+	}
+
+	&.active {
+		.extras {
+
+			max-height: none;
+			padding-bottom: 50px;
+		}
+	}
+
+	.extras {
+		color: white;
+		@include main-font-semi-light;
+		margin-top: 15px;
+		@include transition;
+		overflow: hidden;
+		max-height: 0px;
+
+	}
+
+	.buttons, .tags {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.button,p.label {
+		margin: 0px;
+		margin-right: 15px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		text-transform: capitalize;
+		transition: all .1s linear;
+		&.active {
+				// color: #f0ff78
+				text-decoration: underline;
+			}
+
+
+		}
+
+		.tidbit-title {
+			margin: 10px 0px;
+			margin-top: 0px;
+		}
+
+		.info {
+			display: flex;
+			flex-direction: row;
+			p {
+				font-size: 12px;
+				&.source {
+					text-transform: none;
+				}
+
+			}
+		}
+
+		.submit,.publish {
+			width: 100%;
+			text-align: center;
+			background-color: $fun-blue;
+			color: #fff;
+			text-transform: capitalize;
+			padding: 10px 0px;
+			cursor: pointer;
+			@include transition;
+			&:hover, &:active {
+				background-color: darken($fun-blue, 5%);
+			}
+		}
+
+		.publish {
+			background-color: lighten($fun-blue, 8%);
+			margin-top: 0px;
+			&:hover, &:active {
+				background-color: $fun-blue;
+			}
+		}
+
+	}

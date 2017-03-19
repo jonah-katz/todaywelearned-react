@@ -1,0 +1,136 @@
+textarea, input, button {
+  outline: none; }
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff"); }
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff"); }
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff"); }
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff"); }
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff"); }
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff"); }
+
+.tidbitForm .new-tidbit-input {
+  margin: 0px auto;
+  border-bottom: 1px solid #D8D8D8;
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-bottom: 11px;
+  font-size: 20px;
+  color: white;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+
+.tidbitForm ::-webkit-input-placeholder {
+  font-size: 20px;
+  color: white;
+  opacity: 1;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+
+.tidbitForm :-moz-placeholder {
+  font-size: 20px;
+  color: white;
+  opacity: 1;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+
+.tidbitForm ::-moz-placeholder {
+  font-size: 20px;
+  color: white;
+  opacity: 1;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+
+.tidbitForm :-ms-input-placeholder {
+  font-size: 20px;
+  color: white;
+  opacity: 1;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+
+.tidbitForm.active .extras {
+  max-height: none;
+  padding-bottom: 50px; }
+
+.tidbitForm .extras {
+  color: white;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200;
+  margin-top: 15px;
+  transition: all .4s ease;
+  overflow: hidden;
+  max-height: 0px; }
+
+.tidbitForm .buttons, .tidbitForm .tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.tidbitForm .button, .tidbitForm p.label {
+  margin: 0px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all .1s linear; }
+  .tidbitForm .button.active, .tidbitForm p.label.active {
+    text-decoration: underline; }
+
+.tidbitForm .tidbit-title {
+  margin: 10px 0px;
+  margin-top: 0px; }
+
+.tidbitForm .info {
+  display: flex;
+  flex-direction: row; }
+  .tidbitForm .info p {
+    font-size: 12px; }
+    .tidbitForm .info p.source {
+      text-transform: none; }
+
+.tidbitForm .submit, .tidbitForm .publish {
+  width: 100%;
+  text-align: center;
+  background-color: #2579b2;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 0px;
+  cursor: pointer;
+  transition: all .4s ease; }
+  .tidbitForm .submit:hover, .tidbitForm .submit:active, .tidbitForm .publish:hover, .tidbitForm .publish:active {
+    background-color: #216b9d; }
+
+.tidbitForm .publish {
+  background-color: #2d90d3;
+  margin-top: 0px; }
+  .tidbitForm .publish:hover, .tidbitForm .publish:active {
+    background-color: #2579b2; }

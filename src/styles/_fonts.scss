@@ -1,0 +1,29 @@
+@mixin main-font {
+	font-family: 'San Francisco', sans-serif;
+	font-weight: 400;
+
+}
+
+@mixin main-font-light {
+	font-family: 'San Francisco', sans-serif;
+	font-weight: 100;
+
+}
+
+@mixin main-font-semi-light {
+	font-family: 'San Francisco', sans-serif;
+	font-weight: 200;
+
+}
+
+@mixin main-font-bold {
+	font-family: 'San Francisco', sans-serif;
+	font-weight: 500;
+
+}
+
+@mixin main-font-extra-bold {
+	font-family: 'San Francisco', sans-serif;
+	font-weight: 700;
+
+}

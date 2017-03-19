@@ -1,0 +1,81 @@
+@import '../../App.scss';
+
+
+.tidbit h3.title, .tidbit-title {
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0px;
+	@include main-font-semi-light;
+	&::first-letter {
+		text-transform: capitalize;
+	}
+
+}
+.tidbit {
+
+	width: 100%;
+	padding: 20px 0px;
+	margin-top: 30px;
+	position: relative;
+	.intro {
+		margin: 0px;
+		margin-bottom: 10px;
+		font-size: 14px;
+		color: #DEDEDE;
+		@include main-font-light;
+	}
+
+	.tags {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+	}
+
+	p.description, p.description a {
+		font-size: 14px;
+		color: $dark-blue;
+		margin-top: 15px;
+		text-decoration: none;
+		@include main-font-light;
+	}
+
+	time {
+		position: absolute;
+		right: 0px;
+		top: 20px;
+		color: #fff;
+		font-size: 11px;
+		@include main-font-light;
+
+	}
+
+
+}
+
+.pill {
+	margin: 0px;
+	color: white;
+	padding: 2px 13px;
+	background-color: $light-blue;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 12px;
+	@include main-font-semi-light;
+	text-transform: lowercase;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	white-space: nowrap;
+
+	&.large {
+		font-size: 16px;
+		white-space: pre-wrap;
+
+	}
+
+	&.dark {
+		background-color: $dark-blue;
+	}
+
+
+}

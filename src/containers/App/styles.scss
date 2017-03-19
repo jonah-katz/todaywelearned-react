@@ -1,0 +1,16 @@
+@import '../../App.scss';
+
+body,html {
+	background-color: $main-color;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	@include main-font;
+}
+
+.app {
+	margin: 0px auto;
+	margin-top: 55px;
+	width: calc(100% - 40px);
+	max-width: 600px;
+}

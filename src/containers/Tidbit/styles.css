@@ -1,0 +1,100 @@
+textarea, input, button {
+  outline: none; }
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff"); }
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff"); }
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff"); }
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff"); }
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff"); }
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff"); }
+
+.tidbit h3.title, .tidbit-title {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0px;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200; }
+  .tidbit h3.title::first-letter, .tidbit-title::first-letter {
+    text-transform: capitalize; }
+
+.tidbit {
+  width: 100%;
+  padding: 20px 0px;
+  margin-top: 30px;
+  position: relative; }
+  .tidbit .intro {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #DEDEDE;
+    font-family: 'San Francisco', sans-serif;
+    font-weight: 100; }
+  .tidbit .tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px; }
+  .tidbit p.description, .tidbit p.description a {
+    font-size: 14px;
+    color: #3E6A87;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: 'San Francisco', sans-serif;
+    font-weight: 100; }
+  .tidbit time {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'San Francisco', sans-serif;
+    font-weight: 100; }
+
+.pill {
+  margin: 0px;
+  color: white;
+  padding: 2px 13px;
+  background-color: #5898c3;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 200;
+  text-transform: lowercase;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  white-space: nowrap; }
+  .pill.large {
+    font-size: 16px;
+    white-space: pre-wrap; }
+  .pill.dark {
+    background-color: #3E6A87; }
