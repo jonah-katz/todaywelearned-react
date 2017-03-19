@@ -2,9 +2,14 @@ TodayWeLearned is a ReactJS-powered site to post quick little snippets you've le
 
 Backend: https://github.com/jonah-katz/todaywelearned-rails
 
-TODO:
+TODO (by you, hopefully):
+
 🚫  User signup
+
 🚫  Liking
+
 🚫  Sharing
+
 🚫  Commenting
+
 
