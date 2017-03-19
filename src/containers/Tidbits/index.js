@@ -40,7 +40,7 @@ export class Tidbits extends React.Component { // eslint-disable-line react/pref
         ]}
         />
         <TidbitForm />
-        {tags.length ? 
+        {tags.size ? 
             <div className="tags-filter">
               {
                 tags.map((tag) => 
