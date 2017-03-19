@@ -56,7 +56,7 @@ textarea, input, button {
     margin: 0px;
     margin-bottom: 10px;
     font-size: 14px;
-    color: #DEDEDE;
+    color: #fdfdfd;
     font-family: 'San Francisco', sans-serif;
     font-weight: 100; }
   .tidbit .tags {
@@ -65,7 +65,7 @@ textarea, input, button {
     margin-bottom: 10px; }
   .tidbit p.description, .tidbit p.description a {
     font-size: 14px;
-    color: #3E6A87;
+    color: #010101;
     margin-top: 15px;
     text-decoration: none;
     font-family: 'San Francisco', sans-serif;
@@ -75,7 +75,7 @@ textarea, input, button {
     right: 0px;
     top: 20px;
     color: #fff;
-    font-size: 11px;
+    font-size: 13px;
     font-family: 'San Francisco', sans-serif;
     font-weight: 100; }
 
@@ -86,7 +86,7 @@ textarea, input, button {
   background-color: #5898c3;
   border-radius: 50px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'San Francisco', sans-serif;
   font-weight: 200;
   text-transform: lowercase;
@@ -97,4 +97,4 @@ textarea, input, button {
     font-size: 16px;
     white-space: pre-wrap; }
   .pill.dark {
-    background-color: #3E6A87; }
+    background-color: #010101; }
